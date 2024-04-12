@@ -1,0 +1,194 @@
+header{
+    display: flex; 
+    height: 170px;
+}
+
+header img{
+    height: 200px;
+    width: 220px;
+    display: inline;
+    padding-left: 40%;
+}
+
+body{
+    font-size: 16px;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:white;
+}
+
+nav li{
+    
+    display: inline;
+    padding: 10px; 
+    text-decoration: none;
+    font-size: 20px;  
+}
+a{
+    margin-top: 50%;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(5, 83, 83);
+}
+
+
+
+.Banner{
+        width: 100%;
+        height: 500px;
+        background-color: aquamarine;
+}
+
+.Banner h1{
+    font-size: 4em;
+    text-align: center;
+    text-decoration: solid;
+    padding: 30px;
+    
+}
+
+.Banner p{   
+    text-align: center;
+    text-shadow:darkviolet;
+    font-size: 3em;
+}
+
+
+.box{
+    width: 100%;
+    display: flex;
+    background-color: aquamarine;
+    padding: 20px;
+}
+
+.box img{
+        display: flex;
+        margin: 20px 30px;     
+}
+
+.one{
+    height: 400px;
+    margin: 20px 30px;  
+}
+
+.one img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.one p{
+   
+    text-align: center;
+}
+
+.two{  
+    margin: 20px 30px;
+}
+
+.two img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.two p{
+    text-align: center;
+}
+
+.three{   
+    margin: 20px 30px;
+  
+}
+
+.three img{
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+.three p{
+    text-align: center;
+}
+
+.facility p{
+    background-color: antiquewhite;
+}
+
+.Membership{
+    border: 2px solid black;
+    width: 16%;
+    padding-left: 30px;
+    border-radius: 50px;
+}
+
+button{
+    background-color: black;
+    color: aliceblue;
+    margin-left: 40px;
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 5px;
+    border-radius: 30px;
+    width: 90px;
+}
+
+footer{
+    background-color: rgb(150, 155, 145);
+}
+
+footer h3{
+    text-align: center;
+    padding-top: 10px;
+}
+
+@media only screen and (max-width:470px){
+    header img{
+        height: 120px;
+        width: 120px;
+        display: inline;
+        padding-left: 10%;
+    }
+
+    nav li{
+        display:flow-root;
+        padding: 10px; 
+        text-decoration: none;
+        font-size: 18px; 
+        margin: 0; 
+    }
+
+    .Banner h1{
+        font-size: 2em;
+        padding:20px;
+        
+    }
+    .Banner p{
+        font-size: 1.5em;
+        padding:10px;
+    }
+
+    .Banner{
+        width: 100%;
+        height: 300px;
+        border-radius: 40px;
+    }
+
+    .box{
+        flex-wrap: wrap;
+        margin: 10px 10px;   
+    }
+
+    .box img{
+        width: 80%;
+        margin: 10px 10px;   
+    }
+
+    .Membership{
+        width: 50%;
+    }
+  
+        
+    }
+    
+ 
